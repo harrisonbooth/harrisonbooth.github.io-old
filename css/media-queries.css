@@ -46,4 +46,8 @@
   .project-grid-cell a {
     font-size: 3em;
   }
+
+  header a {
+    font-size: 5em;
+  }
 }

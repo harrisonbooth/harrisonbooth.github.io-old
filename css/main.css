@@ -1,0 +1,48 @@
+main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 3px;
+  background-color: white;
+  padding-bottom: 0;
+}
+
+.project-grid {
+  height: 700px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.project-grid-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-grid-cell {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+}
+
+.project-grid-cell * {
+  display: block;
+  margin: 0 auto;
+}
+
+.project-grid-cell a {
+  color: #333;
+  text-decoration: underline;
+  font-family: 'Arial', sans-serif;
+  padding: 3px;
+}
+
+.project-grid-cell img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+
+@media all and ( min-width: 900px ) {
+  .grid-row-lg {
+    flex-direction: row;
+  }
+}

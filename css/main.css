@@ -14,7 +14,7 @@ main {
 
 .project-grid-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .project-grid-cell {
@@ -36,13 +36,7 @@ main {
 }
 
 .project-grid-cell img {
-  width: 250px;
+  width: 200px;
   height: 150px;
   object-fit: cover;
-}
-
-@media all and ( min-width: 900px ) {
-  .grid-row-lg {
-    flex-direction: row;
-  }
 }

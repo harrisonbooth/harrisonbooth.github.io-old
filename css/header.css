@@ -1,0 +1,56 @@
+header {
+  width: 70%;
+  background-color: #333;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+header div {
+  text-align: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 3em;
+  transition-duration: 0.2s;
+}
+
+header a:hover {
+  background-color: white;
+  color: #333;
+  padding: 10px;
+  padding-top: 6px;
+}
+
+.header-link {
+  display: inline-block;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.header-link:hover {
+  background-color: white;
+  color: black;
+}
+
+#project-list-header-link:hover > #project-list, #project-list:hover {
+  display: inline;
+  background-color: #EEE;
+  /*color: #333;*/
+}
+
+.header-link p {
+  margin: 0;
+}
+
+.header-link:hover {
+  cursor: pointer;
+}

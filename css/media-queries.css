@@ -9,6 +9,11 @@
 
   header {
     width: 100%;
+    left: 0;
+  }
+
+  footer {
+    width: 100%;
   }
 
   .project-grid {
@@ -32,12 +37,24 @@
 
   header {
     width: 100%;
-    position: sticky;
-    top: 0;
+    left: 0;
+  }
+
+  footer {
+    width: 100%;
+    left: 0;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  #footer-email-icon {
+    height: 60px;
   }
 
   .project-grid {
     height: 100%;
+    margin-top: 50px;
+    margin-bottom: 65px;
   }
 
   .project-grid-cell img {
@@ -51,5 +68,20 @@
 
   header a {
     font-size: 5em;
+  }
+
+  #social-media-links-container {
+    left: 15px;
+    top: 200px;
+  }
+
+  .social-media-icon {
+    width: 90px;
+    border-radius: 20px;
+  }
+
+  #medium-icon {
+    width: 60px;
+    padding: 15px;
   }
 }

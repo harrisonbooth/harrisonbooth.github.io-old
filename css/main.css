@@ -64,3 +64,23 @@ main {
     color: red;
   }
 }
+
+
+/* Social media bit */
+#social-media-links-container {
+  position: fixed;
+  left: calc(15% - 60px);
+}
+
+.social-media-icon {
+  width: 45px;
+  background-color: #BBB;
+  border-radius: 8px;
+}
+
+#medium-icon {
+  background-color: black;
+  width: 30px;
+  padding: 7.5px;
+  filter: grayscale(1.0) brightness(1.2);
+}

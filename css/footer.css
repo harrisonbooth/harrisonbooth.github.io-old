@@ -1,0 +1,23 @@
+footer {
+  width: 70%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  left: calc(15% - 3px);
+}
+
+#footer-email-icon {
+  height: 30px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#footer-email-text {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+  font-family: "Arial", sans-serif;
+}

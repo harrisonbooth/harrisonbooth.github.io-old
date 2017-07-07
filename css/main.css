@@ -43,27 +43,10 @@ main {
   padding: 3px;
 }
 
-.project-grid-cell a:hover {
-  animation-name: color-cycle;
-  animation-duration: 0.3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
 .project-grid-cell img {
   width: 200px;
   height: 150px;
   object-fit: cover;
-}
-
-@keyframes color-cycle {
-  0% {
-    color: #333;
-  }
-
-  100% {
-    color: red;
-  }
 }
 
 

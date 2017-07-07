@@ -5,7 +5,7 @@ footer {
   padding: 3px;
   position: fixed;
   bottom: 0;
-  left: calc(15% - 3px);
+  left: 15%;
 }
 
 #footer-email-icon {

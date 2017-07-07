@@ -36,7 +36,7 @@ main {
   margin: 0 auto;
 }
 
-.project-grid-cell a {
+.project-grid-cell a p {
   color: #333;
   text-decoration: underline;
   font-family: 'Arial', sans-serif;
@@ -68,6 +68,7 @@ main {
 
 
 /* Social media bit */
+
 #social-media-links-container {
   position: fixed;
   left: calc(15% - 60px);
@@ -77,6 +78,11 @@ main {
   width: 45px;
   background-color: #BBB;
   border-radius: 8px;
+  transition-duration: 0.2s;
+}
+
+.social-media-icon:hover {
+  transform: translateX(5px);
 }
 
 #medium-icon {

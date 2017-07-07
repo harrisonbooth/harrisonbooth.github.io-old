@@ -54,6 +54,7 @@ main {
 #social-media-links-container {
   position: fixed;
   left: calc(15% - 60px);
+  margin-top: 20px;
 }
 
 .social-media-icon {

@@ -4,7 +4,8 @@
   "description": "Personal website for GitHub Pages.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack -w",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/harrisonbooth/harrisonbooth.github.io/issues"
   },
-  "homepage": "https://github.com/harrisonbooth/harrisonbooth.github.io#readme"
+  "homepage": "https://github.com/harrisonbooth/harrisonbooth.github.io#readme",
+  "devDependencies": {
+    "webpack": "^3.1.0"
+  }
 }

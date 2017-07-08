@@ -1,0 +1,19 @@
+{
+  "name": "harrisonbooth.github.io",
+  "version": "1.0.0",
+  "description": "Personal website for GitHub Pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrisonbooth/harrisonbooth.github.io.git"
+  },
+  "author": "Harrison Booth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harrisonbooth/harrisonbooth.github.io/issues"
+  },
+  "homepage": "https://github.com/harrisonbooth/harrisonbooth.github.io#readme"
+}

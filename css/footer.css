@@ -9,6 +9,10 @@ footer {
   left: 15%;
 }
 
+.footer-email-container {
+  cursor: alias;
+}
+
 #footer-email-icon {
   height: 30px;
   display: inline-block;

@@ -86,7 +86,7 @@ var windowOnLoad = function windowOnLoad() {
     document.execCommand("copy");
 
     document.body.removeChild(stringTextArea);
-    emailText.innerText = "Email coped to clipboard!";
+    emailText.innerText = "Email copied to clipboard!";
 
     setTimeout(function () {
       emailText.innerText = "harrisonboothh@gmail.com";

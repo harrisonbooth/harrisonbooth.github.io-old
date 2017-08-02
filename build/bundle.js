@@ -70,14 +70,36 @@
 "use strict";
 
 
+var _emailFooter = __webpack_require__(1);
+
+var _emailFooter2 = _interopRequireDefault(_emailFooter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 var windowOnLoad = function windowOnLoad() {
   var emailContainer = document.getElementsByClassName("footer-email-container")[0];
   var emailText = document.getElementById("footer-email-text");
 
-  emailContainer.addEventListener("click", function (event) {
+  (0, _emailFooter2.default)(emailContainer, emailText, "harrisonboothh@gmail.com");
+};
+
+window.addEventListener("load", windowOnLoad);
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var setupCopyContainer = function setupCopyContainer(container, element, text) {
+  container.addEventListener("click", function (event) {
     var stringTextArea = document.createElement("textarea");
     stringTextArea.style.position = "fixed";
-    stringTextArea.value = "harrisonboothh@gmail.com";
+    stringTextArea.value = text;
 
     document.body.appendChild(stringTextArea);
 
@@ -86,15 +108,15 @@ var windowOnLoad = function windowOnLoad() {
     document.execCommand("copy");
 
     document.body.removeChild(stringTextArea);
-    emailText.innerText = "Email copied to clipboard!";
+    element.innerText = "Email copied to clipboard!";
 
     setTimeout(function () {
-      emailText.innerText = "harrisonboothh@gmail.com";
+      element.innerText = "harrisonboothh@gmail.com";
     }, 1000);
   });
 };
 
-window.addEventListener("load", windowOnLoad);
+exports.default = setupCopyContainer;
 
 /***/ })
 /******/ ]);

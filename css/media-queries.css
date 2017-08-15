@@ -61,6 +61,10 @@
     margin-bottom: 65px;
   }
 
+  .project-grid-cell {
+    max-width: 100%
+  }
+
   .project-grid-cell img {
     width: 80%;
     height: auto;

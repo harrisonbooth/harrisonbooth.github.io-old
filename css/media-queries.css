@@ -78,6 +78,10 @@
     font-size: 5em;
   }
 
+  #header-tech-stack {
+    display: none;
+  }
+
   #social-media-links-container {
     left: 15px;
     top: 200px;

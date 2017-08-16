@@ -14,7 +14,10 @@ header div {
   text-align: center;
 }
 
-header a {
+#header-name-title {
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
   color: #333;
   text-decoration: none;
   font-size: 3em;
